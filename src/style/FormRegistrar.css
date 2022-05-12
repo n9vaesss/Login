@@ -1,0 +1,90 @@
+.main-registrar .align-registrar form {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-registrar .align-registrar .form-erro-usuario-registrar {
+  position: absolute;
+
+  color: var(--cor-mensagem-erro);
+}
+
+.main-registrar .align-registrar .form-erro-senha-registrar {
+  position: absolute;
+
+  color: var(--cor-mensagem-erro);
+}
+
+.main-registrar .align-registrar .form-erro-nome-registrar {
+  position: absolute;
+
+  color: var(--cor-mensagem-erro);
+}
+
+.main-registrar .align-registrar .div-input-registrar {
+  width: 389px;
+  height: 56px;
+
+  margin-top: 18px;
+  margin-bottom: 2px;
+
+  background-color: var(--cor-input);
+  filter: none;
+
+  border-radius: 4px 4px 0px 0px;
+  border-bottom: 1px solid #1a1c1e;
+}
+
+.main-registrar .align-registrar .div-input-registrar .input-registrar {
+  width: 350px;
+  height: 55px;
+
+  padding-left: 15px;
+
+  background-color: var(--cor-input);
+
+  border-radius: 4px 4px 0px 0px;
+}
+
+.main-registrar
+  .align-registrar
+  .div-input-registrar
+  .input-registrar::placeholder {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+
+  color: var(--cor-placeholder);
+}
+
+.main-registrar .align-registrar .div-input-registrar .mostrarSenha-registrar {
+  background-color: var(--cor-inpu);
+
+  font-size: 18px;
+}
+
+.main-registrar .align-registrar .submit-registrar {
+  width: 315px;
+  height: 40px;
+
+  margin: 18px auto;
+  padding: 10px 24px;
+
+  border-radius: 100px;
+
+  background-color: var(--cor-fundo-botao);
+  color: var(--cor-fonte-botao);
+}
+
+.main-registrar .align-registrar .registar-registrar {
+  width: 259px;
+  height: 40px;
+
+  margin: 28px auto;
+  padding: 10px 24px;
+
+  border-radius: 100px;
+
+  background-color: var(--cor-fundo-botao);
+  color: var(--cor-fonte-botao);
+}

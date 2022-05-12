@@ -1,0 +1,81 @@
+.main-login .align-login form {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-login .align-login .form-erro-usuario-login {
+  position: absolute;
+
+  color: red;
+}
+
+.main-login .align-login .form-erro-senha-login {
+  position: absolute;
+
+  color: red;
+}
+
+.main-login .align-login .div-input-login {
+  width: 389px;
+  height: 56px;
+
+  margin-top: 18px;
+  margin-bottom: 2px;
+
+  background-color: #dee3eb;
+  filter: none;
+
+  border-radius: 4px 4px 0px 0px;
+  border-bottom: 1px solid #1a1c1e;
+}
+
+.main-login .align-login .div-input-login .input-login {
+  width: 350px;
+  height: 55px;
+
+  padding-left: 15px;
+
+  background-color: #dee3eb;
+
+  border-radius: 4px 4px 0px 0px;
+}
+
+.main-login .align-login .div-input-login .input-login::placeholder {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+
+  color: #00639c;
+}
+
+.main-login .align-login .div-input-login .mostrarSenha-login {
+  background-color: #dee3eb;
+
+  font-size: 18px;
+}
+
+.main-login .align-login .submit-login {
+  width: 315px;
+  height: 40px;
+
+  margin: 18px auto;
+  padding: 10px 24px;
+
+  border-radius: 100px;
+
+  background-color: #00639c;
+  color: white;
+}
+
+.main-login .align-login .registar-login {
+  width: 259px;
+  height: 40px;
+
+  margin: 25px auto;
+  padding: 10px 24px;
+
+  border-radius: 100px;
+
+  background-color: #00639c;
+  color: white;
+}

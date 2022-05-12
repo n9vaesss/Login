@@ -1,0 +1,35 @@
+* {
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+  box-sizing: border-box;
+  font-size: 12px;
+  border-collapse: collapse;
+}
+
+:root {
+  --cor-fundo-botao: #00639c;
+
+  --cor-fonte-cabecalho-tabela: #00639c;
+  --cor-tabela: #cce5ff;
+
+  --cor-input: #dee3eb;
+  --cor-placeholder: #00639c;
+
+  --cor-mensagem-erro: #ff0000;
+  --cor-fonte-botao: #ffffff;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #dee3eb inset;
+}
+
+input:focus {
+  outline: 0;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}

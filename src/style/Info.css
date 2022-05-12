@@ -1,0 +1,9 @@
+.main-usario .table-usuario .corpo-usuario .id-usuario {
+  text-align: center;
+}
+
+.main-usario .table-usuario .corpo-usuario .name-usuario {
+  padding: 10px;
+
+  border-left: 1px solid #cce5ff;
+}
